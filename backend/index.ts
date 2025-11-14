@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 // Allow frontend to send cookies
 app.use(cors({
-   origin: "http://localhost:3000", credentials: true
+   origin: "https://auth-project-bykishan.vercel.app/", credentials: true
 }));
 
 app.use("/api/auth", authRoutes);
