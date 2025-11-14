@@ -36,7 +36,7 @@ return (
     <div className="min-h-screen bg-linear-to-br from-indigo-50 via-white to-gray-50 flex items-center justify-center p-6">
         <div className="w-full max-w-4xl bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden grid grid-cols-1 md:grid-cols-2">
             {/* Left illustration / promo (hidden on small screens) */}
-            <div className="hidden md:flex flex-col items-start justify-center gap-6 p-10 bg-gradient-to-b from-indigo-600 to-indigo-700 text-white">
+            <div className="hidden md:flex flex-col items-start justify-center gap-6 p-10 bg-linear-to-b from-indigo-600 to-indigo-700 text-white">
                 <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
@@ -146,7 +146,7 @@ return (
                     <div>
                         <button
                             type="submit"
-                            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-indigo-600 to-indigo-500 text-white font-medium hover:from-indigo-700 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
+                            className="w-full inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg  from-indigo-600 to-indigo-500 text-white font-medium hover:from-indigo-700 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 transition"
                         >
                             Create account
                         </button>
